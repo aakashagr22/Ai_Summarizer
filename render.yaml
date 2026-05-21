@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: spring-ai-summarizer
+    env: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: OPENAI_API_KEY
+        scope: run
+        sync: false
