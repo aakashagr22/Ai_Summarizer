@@ -33,3 +33,4 @@ Or, if using HTTPie:
 $ http -f POST localhost:8085/summarize \
       file@'mydocument.pdf;type=application/pdf'
 ~~~
+# Ai_Summarizer
